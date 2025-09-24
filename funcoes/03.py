@@ -9,3 +9,6 @@ def verificar_primo(numero):
         if numero % i == 0:
             return False
     return True
+
+print(verificar_primo(11))  # True
+print(verificar_primo(4))   # False
